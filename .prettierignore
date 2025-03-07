@@ -1,0 +1,8 @@
+**/node_modules
+*.yaml
+*.code-snippets
+README.md
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+package.json

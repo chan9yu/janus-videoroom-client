@@ -1,0 +1,15 @@
+{
+	"name": "@janus-videoroom-client/peer-connection",
+	"private": true,
+	"version": "1.0.0",
+	"description": "🧑🏻‍💻 Janus Gateway의 VideoRoom 플러그인을 활용한 SFU 방식의 미디어 연결 모듈과 예제 코드입니다.",
+	"type": "module",
+	"packageManager": "pnpm@10.5.2",
+	"author": "chan9yu <dev.cgyeo@gmail.com>",
+	"main": "src/index.ts",
+	"types": "src/index.ts",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/chan9yu/janus-videoroom-client"
+	}
+}

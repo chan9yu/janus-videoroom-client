@@ -1,0 +1,34 @@
+{
+  "name": "@janus-videoroom-client/example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "🧑🏻‍💻 Janus Gateway의 VideoRoom 플러그인을 활용한 SFU 방식의 미디어 연결 모듈과 예제 코드입니다.",
+  "type": "module",
+  "packageManager": "pnpm@10.5.2",
+  "author": "chan9yu <dev.cgyeo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chan9yu/janus-videoroom-client"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@janus-videoroom-client/janus-video-room": "workspace:^",
+    "@janus-videoroom-client/peer-connection": "workspace:^",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
