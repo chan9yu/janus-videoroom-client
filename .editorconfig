@@ -1,0 +1,22 @@
+# https://editorconfig.org
+root = true
+
+[*]
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+end_of_line = lf
+
+[*.{js,ts,tsx,puml,mdx}]
+indent_style = tab
+indent_size = 2
+
+[*.json]
+indent_style = tab
+indent_size = 2
+
+[Makefile]
+indent_style = tab
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false

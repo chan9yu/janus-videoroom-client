@@ -1,0 +1,70 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & Test Reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+.nuxt/
+.vuepress/dist/
+.docusaurus/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.grunt/
+.temp/
+.serverless/
+.web_modules/
+.npm/
+.node_repl_history
+
+# Dependency directories
+node_modules/
+jspm_packages/
+bower_components/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint & Stylelint cache
+.eslintcache
+.stylelintcache
+
+# Microbundle & Rollup cache
+.rpt2_cache/
+.rts2_cache_*/
+
+# Yarn & npm specific files
+.yarn/
+.yarn-integrity
+.pnp.*
+
+# IDE & Editor related files
+.vscode-test/
+.DS_Store
+
+# dotenv environment files
+.env
+.env.*
+!.env.example
